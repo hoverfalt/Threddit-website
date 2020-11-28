@@ -1,5 +1,5 @@
 ---
-title: "Warderobe visibility"
+title: "Portfolio"
 output: html_document
 ---
 
@@ -7,7 +7,10 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-Introduction and inspiration
+## Status DD.MM.YYY
 
+Example plot
+
+![](Plots/Category-Underwear_shirts-Times_used.png)
 
 Threddit - Olof Hoverfält - 2020
