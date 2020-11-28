@@ -12,5 +12,3 @@ knitr::opts_chunk$set(echo = TRUE)
 Portfolio value plot
 
 ![](Plots/Category-Underwear_shirts-Times_used.png)
-
-Threddit - Olof Hoverfält - 2020
