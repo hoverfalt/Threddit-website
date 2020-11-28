@@ -7,7 +7,10 @@ navbar:
       href: index.html
     - text: "Portfolio"
       href: portfolio.html
+    - text: "Jackets"
+      href: jackets.html
 output:
   html_document:
+    css: style.css
     include:
       after_body: footer.html
