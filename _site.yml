@@ -1,0 +1,7 @@
+name: "Threddit"
+output_dir: hoverfalt.github.io
+navbar:
+  title: "Threddit"
+  left:
+    - text: "Home"
+      href: index.html
