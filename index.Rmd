@@ -7,7 +7,7 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-Introduction and inspiration. Write this.
+Introduction and inspiration.
 
 
 Threddit - Olof Hoverfält - 2020
