@@ -9,7 +9,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Status DD.MM.YYY
 
-Example plot
+Portfolio value
 
 ![](Plots/Category-Underwear_shirts-Times_used.png)
 
