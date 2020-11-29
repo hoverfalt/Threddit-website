@@ -28,11 +28,15 @@ The portfolio level shows category performance and comparison within the portfol
 ### Daily cost
 [![](https://github.com/hoverfalt/Threddit-plots/blob/master/Portfolio-Daily_cost.png?raw=true)](https://github.com/hoverfalt/Threddit-plots/blob/master/Portfolio-Daily_cost.png?raw=true)
 
+### Average daily cost and category use - Animated by date
+![](https://github.com/hoverfalt/Threddit-plots/blob/master/Portfolio-Daily_cost_and_Category_use-animation.gif?raw=true)
+
+### Average yearly cost and category use - Animated by date
+![](https://github.com/hoverfalt/Threddit-plots/blob/master/Portfolio-Yearly_cost_and_Category_use-animation.gif?raw=true)
+
 ### Daily cost - Animated by date
 ![](https://github.com/hoverfalt/Threddit-plots/blob/master/Portfolio-Daily_cost-animation.gif?raw=true)
 
-### Category yearly cost and category use - Animated by date
-![](https://github.com/hoverfalt/Threddit-plots/blob/master/Portfolio-Yearly_cost_and_Category_use-image.gif?raw=true)
 
 
 
