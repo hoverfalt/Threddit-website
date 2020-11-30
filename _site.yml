@@ -3,14 +3,33 @@ output_dir: hoverfalt.github.io
 navbar:
   title: "Threddit"
   left:
-    - text: "Home"
-      href: index.html
     - text: "Portfolio"
       href: portfolio.html
     - text: "Jackets"
       href: jackets.html
+    - text: "Blazers"
+      href: blazers.html
+    - text: "Shirts"
+      href: shirts.html
+    - text: "T-shirts"
+      href: t-shirts.html
+    - text: "Pants"
+      href: pants.html
+    - text: "Shorts"
+      href: shorts.html
+    - text: "Belts"
+      href: belts.html
+    - text: "Socks"
+      href: socks.html
+    - text: "UW shirts"
+      href: uw_shirts.html
+    - text: "UW boxers"
+      href: uw_boxers.html
+    - text: "Sportswear"
+      href: sportswear.html
 output:
   html_document:
     css: style.css
     include:
+      in_header: GA_Script.html
       after_body: footer.html

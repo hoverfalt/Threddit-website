@@ -11,30 +11,39 @@ knitr::opts_chunk$set(echo = TRUE)
 The portfolio level shows category performance and comparison within the portfolio. Click any image for full size.
 
 ### Item count by category
+Number of active items in each category. 
 [![](https://github.com/hoverfalt/Threddit-plots/blob/master/Portfolio-Inventory-Item_count.png?raw=true)](https://github.com/hoverfalt/Threddit-plots/blob/master/Portfolio-Inventory-Item_count.png?raw=true)
 
 ### Inventory value by category
+Sum of value of active items in each category. A value of an item is its purchase price.
 [![](https://github.com/hoverfalt/Threddit-plots/blob/master/Portfolio-Inventory-Value_by_category.png?raw=true)](https://github.com/hoverfalt/Threddit-plots/blob/master/Portfolio-Inventory-Value_by_category.png?raw=true)
 
 ### Total inventory value
+Total value of active items. A value of an item is its purchase price.
 [![](https://github.com/hoverfalt/Threddit-plots/blob/master/Portfolio-Inventory-Value_stacked.png?raw=true)](https://github.com/hoverfalt/Threddit-plots/blob/master/Portfolio-Inventory-Value_stacked.png?raw=true)
 
 ### Average daily cost and category use
+Average daily cost of wearing an item in a particular category. Category daily use is the share of days in which any item in the category was used.
 [![](https://github.com/hoverfalt/Threddit-plots/blob/master/Portfolio-Daily_cost_and_Category_use.png?raw=true)](https://github.com/hoverfalt/Threddit-plots/blob/master/Portfolio-Daily_cost_and_Category_use.png?raw=true)
 
 ### Average yearly cost and category use
+Yearly cost of using the items in a particular category. Category daily use is the share of days in which any item in the category was used. 
 [![](https://github.com/hoverfalt/Threddit-plots/blob/master/Portfolio-Yearly_cost_and_Category_use.png?raw=true)](https://github.com/hoverfalt/Threddit-plots/blob/master/Portfolio-Yearly_cost_and_Category_use.png?raw=true)
 
 ### Daily cost
+Daily cost of all items used on a particular day. "All divested" means the daily cost is final and no longer changes as all items have been divested.
 [![](https://github.com/hoverfalt/Threddit-plots/blob/master/Portfolio-Daily_cost.png?raw=true)](https://github.com/hoverfalt/Threddit-plots/blob/master/Portfolio-Daily_cost.png?raw=true)
 
 ### Average daily cost and category use - Animated by date
+Progression of the average daily cost of using an item in a particular category, and the share of days in which any item in the category was used.
 ![](https://github.com/hoverfalt/Threddit-plots/blob/master/Portfolio-Daily_cost_and_Category_use-animation.gif?raw=true)
 
 ### Average yearly cost and category use - Animated by date
+Progression of the yearly cost of using the items in a particular category, and the share of days in which any item in the category was used.
 ![](https://github.com/hoverfalt/Threddit-plots/blob/master/Portfolio-Yearly_cost_and_Category_use-animation.gif?raw=true)
 
 ### Daily cost - Animated by date
+Progressions of daily cost of all items used on a particular day. "All divested" means the daily cost is final and no longer changes as all items have been divested.
 ![](https://github.com/hoverfalt/Threddit-plots/blob/master/Portfolio-Daily_cost-animation.gif?raw=true)
 
 
