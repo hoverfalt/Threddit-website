@@ -12,20 +12,20 @@ The category level shows item performance and comparison within the category. Cl
 
 ### Times used
 Total days used to date. Green line items are divested, gray still in use. Green areas show 1 and 2 SD from mean of all divested.
-[![](https://raw.githubusercontent.com/hoverfalt/Threddit-plots/master/Category-Blazers_and_vests-Times_used.png)](https://raw.githubusercontent.com/hoverfalt/Threddit-plots/master/Category-Blazers_and_vests-Times_used.png)
+[![](https://www.dropbox.com/s/g2q4my633qqe8fd/Category-Blazers_and_vests-Times_used.png?raw=1)](https://www.dropbox.com/s/g2q4my633qqe8fd/Category-Blazers_and_vests-Times_used.png?raw=1)
 
 ### Cost per use and cumulative use
 Gray dots trace the use of each item. Blue dots are guide trajectories for items with purchase prices of 5, 10, 20, 50, 100, 200, 400, and 800 EUR.
-[![](https://raw.githubusercontent.com/hoverfalt/Threddit-plots/master/Category-Blazers_and_vests-Cost_and_Cumulative_use.png)](https://raw.githubusercontent.com/hoverfalt/Threddit-plots/master/Category-Blazers_and_vests-Cost_and_Cumulative_use.png)
+[![](https://www.dropbox.com/s/ibhhy6ii4owctoh/Category-Blazers_and_vests-Cost_and_Cumulative_use.png?raw=1)](https://www.dropbox.com/s/ibhhy6ii4owctoh/Category-Blazers_and_vests-Cost_and_Cumulative_use.png?raw=1)
 
 ### Cost per use and frequency of use
 Dotted lines show average values for the total use of all divested items.
-[![](https://raw.githubusercontent.com/hoverfalt/Threddit-plots/master/Category-Blazers_and_vests.png)](https://raw.githubusercontent.com/hoverfalt/Threddit-plots/master/Category-Blazers_and_vests.png)
+[![](https://www.dropbox.com/s/64qarouu4l8f8ni/Category-Blazers_and_vests.png?raw=1)](https://www.dropbox.com/s/64qarouu4l8f8ni/Category-Blazers_and_vests.png?raw=1)
 
 ### Times used - Animated by date
 Historic progression. Green line items are divested, gray still in use. Green areas show 1 and 2 SD from mean of all divested. 
-![](https://github.com/hoverfalt/Threddit-plots/blob/master/Category-Blazers_and_vests-Times_used-animation.gif?raw=true)
+![](https://www.dropbox.com/s/dn30f6ales1f6zb/Category-Blazers_and_vests-Times_used-animation.gif?raw=1)
 
 ### Cost per use and frequency of use - Animated by date
 Historic progression. Dotted lines show average values for the total use of all divested items.
-![](https://github.com/hoverfalt/Threddit-plots/blob/master/Category-Blazers_and_vests-animation.gif?raw=true)
+![](https://www.dropbox.com/s/v193yuinvn8owpg/Category-Blazers_and_vests-animation.gif?raw=1)

@@ -12,20 +12,20 @@ The category level shows item performance and comparison within the category. Cl
 
 ### Times used
 Total days used to date. Green line items are divested, gray still in use. Green areas show 1 and 2 SD from mean of all divested.
-[![](https://raw.githubusercontent.com/hoverfalt/Threddit-plots/master/Category-Shorts-Times_used.png)](https://raw.githubusercontent.com/hoverfalt/Threddit-plots/master/Category-Shorts-Times_used.png)
+[![](https://www.dropbox.com/s/ku2myabvh2htylc/Category-Shorts-Times_used.png?raw=1)](https://www.dropbox.com/s/ku2myabvh2htylc/Category-Shorts-Times_used.png?raw=1)
 
 ### Cost per use and cumulative use
 Gray dots trace the use of each item. Blue dots are guide trajectories for items with purchase prices of 5, 10, 20, 50, 100, 200, 400, and 800 EUR.
-[![](https://raw.githubusercontent.com/hoverfalt/Threddit-plots/master/Category-Shorts-Cost_and_Cumulative_use.png)](https://raw.githubusercontent.com/hoverfalt/Threddit-plots/master/Category-Shorts-Cost_and_Cumulative_use.png)
+[![](https://www.dropbox.com/s/y33kieap0jhu3ud/Category-Shorts-Cost_and_Cumulative_use.png?raw=1)](https://www.dropbox.com/s/y33kieap0jhu3ud/Category-Shorts-Cost_and_Cumulative_use.png?raw=1)
 
 ### Cost per use and frequency of use
 Dotted lines show average values for the total use of all divested items.
-[![](https://raw.githubusercontent.com/hoverfalt/Threddit-plots/master/Category-Shorts.png)](https://raw.githubusercontent.com/hoverfalt/Threddit-plots/master/Category-Shorts.png)
+[![](https://www.dropbox.com/s/87nxboob0q3tt4i/Category-Shorts.png?raw=1)](https://www.dropbox.com/s/87nxboob0q3tt4i/Category-Shorts.png?raw=1)
 
 ### Times used - Animated by date
 Historic progression. Green line items are divested, gray still in use. Green areas show 1 and 2 SD from mean of all divested. 
-![](https://github.com/hoverfalt/Threddit-plots/blob/master/Category-Shorts-Times_used-animation.gif?raw=true)
+![](https://www.dropbox.com/s/1g8xf7wwmfc1p8z/Category-Shorts-Times_used-animation.gif?raw=1)
 
 ### Cost per use and frequency of use - Animated by date
 Historic progression. Dotted lines show average values for the total use of all divested items.
-![](https://github.com/hoverfalt/Threddit-plots/blob/master/Category-Shorts-animation.gif?raw=true)
+![](https://www.dropbox.com/s/d0uxanr6u7o1kfb/Category-Shorts-animation.gif?raw=1)
