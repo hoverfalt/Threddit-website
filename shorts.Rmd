@@ -29,3 +29,7 @@ Historic progression. Green line items are divested, gray still in use. Green ar
 ### Cost per use and frequency of use - Animated by date
 Historic progression. Dotted lines show average values for the total use of all divested items.
 ![](https://www.dropbox.com/s/d0uxanr6u7o1kfb/Category-Shorts-animation.gif?raw=1)
+
+### Daily cost
+Daily cost of item(s) in this category. Green means the daily cost is final and no longer changes. Red means an item is still in use.
+[![](https://www.dropbox.com/s/oz4f7lgo48xyd8p/Category-Shorts-Daily_cost.png?raw=1)](https://www.dropbox.com/s/oz4f7lgo48xyd8p/Category-Shorts-Daily_cost.png?raw=1)

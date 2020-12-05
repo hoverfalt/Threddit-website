@@ -9,6 +9,8 @@ navbar:
       href: jackets.html
     - text: "Blazers"
       href: blazers.html
+    - text: "Knits"
+      href: knits.html
     - text: "Shirts"
       href: shirts.html
     - text: "T-shirts"

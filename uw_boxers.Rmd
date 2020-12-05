@@ -12,11 +12,11 @@ The category level shows item performance and comparison within the category. Cl
 
 ### Times used
 Total days used to date. Green line items are divested, gray still in use. Green areas show 1 and 2 SD from mean of all divested.
-[![](https://www.dropbox.com/s/gi8xssmogepfgef/Category-Underwear_boxers-Times_used.png?raw=1)](https://www.dropbox.com/s/gi8xssmogepfgef/Category-Underwear_boxers-Times_used.png?raw=1)
+[![](https://www.dropbox.com/s/asa666kwk0cb3b3/Category-Underwear_boxers-Times_used.png?raw=1)](https://www.dropbox.com/s/asa666kwk0cb3b3/Category-Underwear_boxers-Times_used.png?raw=1)
 
 ### Cost per use and cumulative use
 Gray dots trace the use of each item. Blue dots are guide trajectories for items with purchase prices of 5, 10, 20, 50, 100, 200, 400, and 800 EUR.
-[![](https://www.dropbox.com/s/3iura6zfxgkrcss/Category-Underwear_boxers-Cost_and_Cumulative_use.png?raw=1)](https://www.dropbox.com/s/3iura6zfxgkrcss/Category-Underwear_boxers-Cost_and_Cumulative_use.png?raw=1)
+[![](https://www.dropbox.com/s/dspynhmoxid16n3/Category-Underwear_boxers-Cost_and_Cumulative_use.png?raw=1)](https://www.dropbox.com/s/dspynhmoxid16n3/Category-Underwear_boxers-Cost_and_Cumulative_use.png?raw=1)
 
 ### Cost per use and frequency of use
 Dotted lines show average values for the total use of all divested items.
@@ -29,3 +29,7 @@ Historic progression. Green line items are divested, gray still in use. Green ar
 ### Cost per use and frequency of use - Animated by date
 Historic progression. Dotted lines show average values for the total use of all divested items.
 ![](https://www.dropbox.com/s/8om9aj5vomdes2p/Category-Underwear_boxers-animation.gif?raw=1)
+
+### Daily cost
+Daily cost of item(s) in this category. Green means the daily cost is final and no longer changes. Red means an item is still in use.
+[![](https://www.dropbox.com/s/hq6mhmxfm781mwf/Category-Underwear_boxers-Daily_cost.png?raw=1)](https://www.dropbox.com/s/hq6mhmxfm781mwf/Category-Underwear_boxers-Daily_cost.png?raw=1)
