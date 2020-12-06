@@ -15,35 +15,35 @@ Number of active items in each category.
 [![](https://www.dropbox.com/s/uvxzeospt4ebjjc/Portfolio-Inventory-Item_count.png?raw=1)](https://www.dropbox.com/s/uvxzeospt4ebjjc/Portfolio-Inventory-Item_count.png?raw=1)
 
 ### Inventory value by category
-Sum of value of active items in each category. The value of an item is its purchase price.
+Sum of the value of active items in each category. The value of an item is its purchase price.
 [![](https://www.dropbox.com/s/xcb5b41e6sv9zl9/Portfolio-Inventory-Value_by_category.png?raw=1)](https://www.dropbox.com/s/xcb5b41e6sv9zl9/Portfolio-Inventory-Value_by_category.png?raw=1)
 
 ### Total inventory value
 Total value of active items. The value of an item is its purchase price.
 [![](https://www.dropbox.com/s/i91gx3qsranc89f/Portfolio-Inventory-Value_stacked.png?raw=1)](https://www.dropbox.com/s/i91gx3qsranc89f/Portfolio-Inventory-Value_stacked.png?raw=1)
 
-### Average daily cost and category use
-Average daily cost of wearing an item in a particular category. Category daily use is the share of days in which any item in the category was used.
+### Average cost per wear and category frequency of use
+Average cost per wear by category. Category frequency of use is the share of all days in which any item in the category was used.
 [![](https://www.dropbox.com/s/x5fo1rr6kh4aix7/Portfolio-Daily_cost_and_Category_use.png?raw=1)](https://www.dropbox.com/s/x5fo1rr6kh4aix7/Portfolio-Daily_cost_and_Category_use.png?raw=1)
 
-### Average yearly cost and category use
-Yearly cost of using the items in a particular category. Category daily use is the share of days in which any item in the category was used. 
+### Average yearly cost and category frequency of use
+Yearly cost of using the items in a particular category. Category frequency of use is the share of all days in which any item in the category was used. 
 [![](https://www.dropbox.com/s/t975jd3i4c7ngn0/Portfolio-Yearly_cost_and_Category_use.png?raw=1)](https://www.dropbox.com/s/t975jd3i4c7ngn0/Portfolio-Yearly_cost_and_Category_use.png?raw=1)
 
 ### Daily cost
-Daily cost of all items used on a particular day. "All divested" means the daily cost is final and no longer changes as all items have been divested.
+Daily cost of all items used on a particular day. "All divested" means the daily cost is final and no longer decreases as all items have been divested.
 [![](https://www.dropbox.com/s/mq2hw7pyeyu94s7/Portfolio-Daily_cost-plot.png?raw=1)](https://www.dropbox.com/s/mq2hw7pyeyu94s7/Portfolio-Daily_cost-plot.png?raw=1)
 
-### Average daily cost and category use - Animated by date
-Progression of the average daily cost of using an item in a particular category, and the share of days in which any item in the category was used.
+### Average cost per wear and category frequency of use - Animated by date
+Progression of the average cost per wear by category, and the share of days in which any item in the category was used.
 ![](https://www.dropbox.com/s/2pani5pr467ot9g/Portfolio-Daily_cost_and_Category_use-animation.gif?raw=1)
 
-### Average yearly cost and category use - Animated by date
+### Average yearly cost and category frequency of use - Animated by date
 Progression of the yearly cost of using the items in a particular category, and the share of days in which any item in the category was used.
 ![](https://www.dropbox.com/s/mxsxvkblyt89w39/Portfolio-Yearly_cost_and_Category_use-animation.gif?raw=1)
 
 ### Daily cost - Animated by date
-Progressions of daily cost of all items used on a particular day. "All divested" means the daily cost is final and no longer changes.
+Progressions of daily cost of all items used on a particular day. "All divested" means the daily cost is final and no longer decreases.
 ![](https://www.dropbox.com/s/3bq0xd1z2p1cvah/Portfolio-Daily_cost-animation.gif?raw=1)
 
 
