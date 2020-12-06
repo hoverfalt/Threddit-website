@@ -12,7 +12,7 @@ The category level shows item performance and comparison within the category. Cl
 
 ### Times used
 Total days used to date. Green line items are divested, gray still in use. Green areas show 1 and 2 SD from mean of all divested.
-[![](https://www.dropbox.com/s/qh822sdz1y24dqn/Category-Underwear_shirts-Times_used.png?raw=1)](https://www.dropbox.com/s/qh822sdz1y24dqn/Category-Underwear_shirts-Times_used.png?raw=1)
+[![](https://www.dropbox.com/s/bwrdpuar64svum7/Category-Underwear_shirts-Times_used.png?raw=1)](https://www.dropbox.com/s/bwrdpuar64svum7/Category-Underwear_shirts-Times_used.png?raw=1)
 
 ### Cost per use and cumulative use
 Gray dots trace the use of each item. Blue dots are guide trajectories for items with purchase prices of 5, 10, 20, 50, 100, 200, 400, and 800 EUR.
@@ -32,4 +32,4 @@ Historic progression. Dotted lines show average values for the total use of all 
 
 ### Daily cost
 Daily cost of item(s) in this category. Green means the daily cost is final and no longer changes. Red means an item is still in use.
-[![](https://www.dropbox.com/s/udf4yigz84inpgu/Category-Underwear_shirts-Daily_cost.png?raw=1)](https://www.dropbox.com/s/udf4yigz84inpgu/Category-Underwear_shirts-Daily_cost.png?raw=1)
+[![](https://www.dropbox.com/s/phnjg4jnfgxbab3/Category-Underwear_shirts-Daily_cost.png?raw=1)](https://www.dropbox.com/s/phnjg4jnfgxbab3/Category-Underwear_shirts-Daily_cost.png?raw=1)
