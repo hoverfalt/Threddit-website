@@ -16,7 +16,7 @@ Total times worn to date. Green line items are divested, gray still in use. Gree
 
 ### Cost per wear and times worn
 Gray dots trace the use of each item. Blue dots are guide trajectories for items with purchase prices of 5, 10, 20, 50, 100, 200, 400, and 800 EUR.
-[![](https://www.dropbox.com/s/fjctq2ez98xzlcy/Category-Socks-Cost_and_Cumulative_use.png?raw=1)](https://www.dropbox.com/s/fjctq2ez98xzlcy/Category-Socks-Cost_and_Cumulative_use.png?raw=1)
+[![](https://www.dropbox.com/s/zbz1b1ld3komh7s/Category-Socks-Cost_and_Cumulative_use.png?raw=1)](https://www.dropbox.com/s/zbz1b1ld3komh7s/Category-Socks-Cost_and_Cumulative_use.png?raw=1)
 
 ### Cost per wear and frequency of use
 Dotted lines show average values for the total use to date of all divested items.

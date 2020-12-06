@@ -20,7 +20,7 @@ Gray dots trace the use of each item. Blue dots are guide trajectories for items
 
 ### Cost per wear and frequency of use
 Dotted lines show average values for the total use to date of all divested items.
-[![](https://www.dropbox.com/s/uysuvb1rvyycvmy/Category-Belts-Cost_and_Cumulative_use.png?raw=1)](https://www.dropbox.com/s/uysuvb1rvyycvmy/Category-Belts-Cost_and_Cumulative_use.png?raw=1)
+[![](https://www.dropbox.com/s/yf9u39edd6h0kfv/Category-Belts.png?raw=1)](https://www.dropbox.com/s/yf9u39edd6h0kfv/Category-Belts.png?raw=1)
 
 ### Times worn - Animated by date
 Historic progression. Green line items are divested, gray still in use. Green areas show 1 and 2 SD ranges for divested items. 
