@@ -23,6 +23,8 @@ navbar:
       href: belts.html
     - text: "Socks"
       href: socks.html
+    - text: "Shoes"
+      href: shoes.html
     - text: "UW shirts"
       href: uw_shirts.html
     - text: "UW boxers"

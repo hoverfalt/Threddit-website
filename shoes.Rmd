@@ -1,0 +1,35 @@
+---
+title: "Shoes"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+```
+
+The category level shows item performance and comparison within the category. Click any image for full size.
+
+### Times worn
+Total times worn to date. Green line items are divested, gray still in use. Green areas show 1 and 2 SD ranges for divested items.
+[![](https://www.dropbox.com/s/hf0o091a0xworvc/Category-Shoes-Times_used.png?raw=1)](https://www.dropbox.com/s/hf0o091a0xworvc/Category-Shoes-Times_used.png?raw=1)
+
+### Cost per wear and times worn
+Gray dots trace the use of each item. Blue dots are guide trajectories for items with purchase prices of 5, 10, 20, 50, 100, 200, 400, and 800 EUR.
+[![](https://www.dropbox.com/s/0h9lmb9znbaptf6/Category-Shoes-Cost_and_Cumulative_use.png?raw=1)](https://www.dropbox.com/s/0h9lmb9znbaptf6/Category-Shoes-Cost_and_Cumulative_use.png?raw=1)
+
+### Cost per wear and frequency of use
+Dotted lines show average values for the total use to date of all divested items.
+[![](https://www.dropbox.com/s/lf3trx8icag3u6i/Category-Shoes.png?raw=1)](https://www.dropbox.com/s/lf3trx8icag3u6i/Category-Shoes.png?raw=1)
+
+### Times worn - Animated by date
+Historic progression. Green line items are divested, gray still in use. Green areas show 1 and 2 SD ranges for divested items. 
+![](https://www.dropbox.com/s/le3ig1iljkvs5n4/Category-Socks-Times_used-animation.gif?raw=1)
+
+### Cost per wear and frequency of use - Animated by date
+Historic progression. Dotted lines show average values for the total use to date of all divested items to that date.
+![](https://www.dropbox.com/s/hdhgfwnivbfmota/Category-Shoes-Times_used-animation.gif?raw=1)
+
+### Daily cost
+Daily cost of category item(s) worn. Green means the daily cost is final and no longer changes. Red means it may still decrease with future use.
+[![](https://www.dropbox.com/s/gv346sx8mkqo7jz/Category-Shoes-Daily_cost.png?raw=1)](https://www.dropbox.com/s/gv346sx8mkqo7jz/Category-Shoes-Daily_cost.png?raw=1)
