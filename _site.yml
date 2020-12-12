@@ -1,7 +1,7 @@
 name: "Threddit"
 output_dir: hoverfalt.github.io
 navbar:
-  title: "Threddit"
+#  title: "Threddit"
   left:
     - text: "Portfolio"
       href: portfolio.html

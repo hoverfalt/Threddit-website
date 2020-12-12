@@ -12,15 +12,15 @@ The category level shows item performance and comparison within the category. Cl
 
 ### Times worn
 Total times worn to date. Green line items are divested, gray still in use. Green areas show 1 and 2 SD ranges for divested items.
-[![](https://www.dropbox.com/s/rywno9m7797dt1n/Category-Sportswear-Times_used.png?raw=1)](https://www.dropbox.com/s/rywno9m7797dt1n/Category-Sportswear-Times_used.png?raw=1)
+[![](https://www.dropbox.com/s/rywno9m7797dt1n/Category-Sportswear-Times_used.png?raw=1)](https://www.dropbox.com/s/rywno9m7797dt1n/Category-Sportswear-Times_used.png?raw=1){target="_blank"}
 
 ### Cost per wear and times worn
 Gray dots trace the use of each item. Blue dots are guide trajectories for items with purchase prices of 5, 10, 20, 50, 100, 200, 400, and 800 EUR.
-[![](https://www.dropbox.com/s/win3kh5flbzuswh/Category-Sportswear-Cost_and_Cumulative_use.png?raw=1)](https://www.dropbox.com/s/win3kh5flbzuswh/Category-Sportswear-Cost_and_Cumulative_use.png?raw=1)
+[![](https://www.dropbox.com/s/win3kh5flbzuswh/Category-Sportswear-Cost_and_Cumulative_use.png?raw=1)](https://www.dropbox.com/s/win3kh5flbzuswh/Category-Sportswear-Cost_and_Cumulative_use.png?raw=1){target="_blank"}
 
 ### Cost per wear and frequency of use
 Dotted lines show average values for the total use to date of all divested items.
-[![](https://www.dropbox.com/s/0fpnk9ful0wtkh6/Category-Sportswear.png?raw=1)](https://www.dropbox.com/s/0fpnk9ful0wtkh6/Category-Sportswear.png?raw=1)
+[![](https://www.dropbox.com/s/0fpnk9ful0wtkh6/Category-Sportswear.png?raw=1)](https://www.dropbox.com/s/0fpnk9ful0wtkh6/Category-Sportswear.png?raw=1){target="_blank"}
 
 ### Times worn - Animated by date
 Historic progression. Green line items are divested, gray still in use. Green areas show 1 and 2 SD ranges for divested items. 

@@ -12,15 +12,15 @@ The category level shows item performance and comparison within the category. Cl
 
 ### Times worn
 Total times worn to date. Green line items are divested, gray still in use. Green areas show 1 and 2 SD ranges for divested items.
-[![](https://www.dropbox.com/s/m6nztnz20hmubq0/Category-Pants-Times_used.png?raw=1)](https://www.dropbox.com/s/m6nztnz20hmubq0/Category-Pants-Times_used.png?raw=1)
+[![](https://www.dropbox.com/s/m6nztnz20hmubq0/Category-Pants-Times_used.png?raw=1)](https://www.dropbox.com/s/m6nztnz20hmubq0/Category-Pants-Times_used.png?raw=1){target="_blank"}
 
 ### Cost per wear and times worn
 Gray dots trace the use of each item. Blue dots are guide trajectories for items with purchase prices of 5, 10, 20, 50, 100, 200, 400, and 800 EUR.
-[![](https://www.dropbox.com/s/d6jg6a7m9pu4f9v/Category-Pants-Cost_and_Cumulative_use.png?raw=1)](https://www.dropbox.com/s/d6jg6a7m9pu4f9v/Category-Pants-Cost_and_Cumulative_use.png?raw=1)
+[![](https://www.dropbox.com/s/d6jg6a7m9pu4f9v/Category-Pants-Cost_and_Cumulative_use.png?raw=1)](https://www.dropbox.com/s/d6jg6a7m9pu4f9v/Category-Pants-Cost_and_Cumulative_use.png?raw=1){target="_blank"}
 
 ### Cost per wear and frequency of use
 Dotted lines show average values for the total use to date of all divested items.
-[![](https://www.dropbox.com/s/7i8k9jivdg0fbmd/Category-Pants.png?raw=1)](https://www.dropbox.com/s/7i8k9jivdg0fbmd/Category-Pants.png?raw=1)
+[![](https://www.dropbox.com/s/7i8k9jivdg0fbmd/Category-Pants.png?raw=1)](https://www.dropbox.com/s/7i8k9jivdg0fbmd/Category-Pants.png?raw=1){target="_blank"}
 
 ### Times worn - Animated by date
 Historic progression. Green line items are divested, gray still in use. Green areas show 1 and 2 SD ranges for divested items. 
@@ -32,4 +32,4 @@ Historic progression. Dotted lines show average values for the total use to date
 
 ### Daily cost
 Daily cost of category item(s) worn. Green means the daily cost is final and no longer changes. Red means it may still decrease with future use.
-[![](https://www.dropbox.com/s/3u15xpbegqd15vi/Category-Pants-Daily_cost.png?raw=1)](https://www.dropbox.com/s/3u15xpbegqd15vi/Category-Pants-Daily_cost.png?raw=1)
+[![](https://www.dropbox.com/s/3u15xpbegqd15vi/Category-Pants-Daily_cost.png?raw=1)](https://www.dropbox.com/s/3u15xpbegqd15vi/Category-Pants-Daily_cost.png?raw=1){target="_blank"}
