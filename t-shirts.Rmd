@@ -3,12 +3,74 @@ title: "T-shirts and tanks"
 output: html_document
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+```{r setup, include = FALSE, message = FALSE, warning = FALSE}
+library(DT)
+library(dplyr)
+library(rmarkdown)
+library(knitr)
 
+load("Threddit-item_listings.Rda")
 ```
 
-The category level shows item performance and comparison within the category. Click any image for full size.
+The category level shows item performance and comparison within the category. Click any plot image for full size.
+
+### Item listing
+
+```{r item_table, layout="l-page", echo = FALSE, message = FALSE, warning = FALSE}
+
+categories <- "T-shirts and tanks"
+
+# Filter data by categories and add photo URIs 
+listing_data <- item_listings %>% filter(Category %in% categories) %>%
+    #mutate(Img = "<img class='item_image' src='https://www.dropbox.com/s/t01v1zpeyahx0ev/Belts-001.png?raw=1'></img>") %>%
+    select(-Category, -'Months active') %>%
+    select(Img, Item, Price, 'Times worn', 'Cost per wear', 'Wears per month', 'Status')
+
+# Set up datatable
+datatable(listing_data, rownames = FALSE, class = 'compact stripe hover row-border order-column', escape = FALSE, options = list(
+    autoWidth= TRUE,
+    colnames = c("Img", "Item", "Price", "Times worn", "Cost per wear", "Wers per month", "Status"),
+    columnDefs = list(list(width = '28px', targets = c(0)),
+                    list(width = '80px', targets = c(2, 3, 4, 5)),
+                    list(width = '45px', targets = c(6)),
+                    list(className = 'dt-center', targets = c(0, 6)),
+                    list(className = 'dt-body-right', targets = c(0, 2, 3, 4, 5, 6))
+                    ),
+    dom = 't', # Hide search box
+    order = list(list(6, 'asc'), list(3, 'desc')), # Set original ordering
+    pageLength = 200
+    )) %>%
+    formatCurrency(c('Price', 'Cost per wear'),
+        currency = " €",
+        interval = 3,
+        mark = ",",
+        digits = 2,
+        dec.mark = getOption("OutDec"),
+        before = FALSE) %>%
+    formatRound(c('Wears per month'), 1) %>%
+    formatStyle('Price',
+        background = styleColorBar(c(0, max(listing_data$'Price')), '#E0E0E0'),
+        backgroundSize = '100% 90%',
+        backgroundRepeat = 'no-repeat',
+        backgroundPosition = 'center') %>%
+    formatStyle('Times worn',
+        background = styleColorBar(c(0, max(listing_data$'Times worn')), '#CCE5FF'),
+        backgroundSize = '100% 90%',
+        backgroundRepeat = 'no-repeat',
+        backgroundPosition = 'center') %>%
+    formatStyle('Cost per wear',
+        background = styleColorBar(c(0,max(listing_data$'Cost per wear'[listing_data$Status == 'Divested'])), '#FFCCCC'),
+        backgroundSize = '100% 90%',
+        backgroundRepeat = 'no-repeat',
+        backgroundPosition = 'center') %>%
+    formatStyle('Wears per month',
+        background = styleColorBar(c(0, max(listing_data$'Wears per month')), '#CCFFCC'),
+        backgroundSize = '100% 90%',
+        backgroundRepeat = 'no-repeat',
+        backgroundPosition = 'center') %>%
+    formatStyle('Status',
+        backgroundColor = styleEqual(c("Divested"), c("#80E0B7")))
+```
 
 ### Times worn
 Total times worn to date. Green line items are divested, gray still in use. Green areas show 1 and 2 SD ranges for divested items.
