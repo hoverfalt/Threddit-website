@@ -3,14 +3,90 @@ title: "Portfolio"
 output: html_document
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+```{r setup, include = FALSE, message = FALSE, warning = FALSE}
+library(DT)
+library(dplyr)
+library(rmarkdown)
+library(knitr)
 
+load("Threddit-category_listing.Rda")
 ```
 
 The portfolio level shows category performance and comparison within the portfolio. Click any image for full size.
 
-### Item count by category
+### Category listing
+
+```{r item_table, layout="l-page", echo = FALSE, message = FALSE, warning = FALSE}
+
+# Prepare data and add photo URIs 
+listing_data <- category_listing
+
+# Set up datatable
+datatable(listing_data, rownames = FALSE, class = 'compact stripe hover row-border order-column', escape = FALSE, options = list(
+    autoWidth= TRUE,
+    colnames = c("Img", "Category", "Active items", "Inventory value", "Cost per wear", "Days used", "Yearly cost", "Turnover"),
+    columnDefs = list(list(width = '28px', targets = c(0)),
+                    #list(width = '110px', targets = c(1)),
+                    list(width = '90px', targets = c(2, 3, 4, 5, 6, 7)),
+                    list(className = 'dt-center', targets = c(0)),
+                    list(className = 'dt-body-right', targets = c(0, 2, 3, 4, 5, 6, 7))
+                    ),
+    dom = 't', # Hide search box
+    #order = list(list(6, 'asc'), list(3, 'desc')), # Set original ordering
+    pageLength = 200
+    )) %>%
+    formatCurrency('Cost per wear',
+        currency = " €",
+        interval = 3,
+        mark = ",",
+        digits = 2,
+        dec.mark = getOption("OutDec"),
+        before = FALSE) %>%
+    formatCurrency(c('Inventory value', 'Yearly cost'),
+        currency = " €",
+        interval = 3,
+        mark = "",
+        digits = 0,
+        dec.mark = getOption("OutDec"),
+        before = FALSE) %>%
+    formatPercentage(c('Days used'), 0) %>%
+    formatRound(c('Turnover'), 2) %>%
+    formatStyle('Active items',
+        background = styleColorBar(c(0, max(listing_data[listing_data$Category != "Total",]$'Active items')), '#E0E0E0'),
+        backgroundSize = '100% 90%',
+        backgroundRepeat = 'no-repeat',
+        backgroundPosition = 'center') %>%
+    formatStyle('Inventory value',
+        background = styleColorBar(c(0, max(listing_data[listing_data$Category != "Total",]$'Inventory value')), '#CCE5FF'),
+        backgroundSize = '100% 90%',
+        backgroundRepeat = 'no-repeat',
+        backgroundPosition = 'center') %>%
+    formatStyle('Cost per wear',
+        background = styleColorBar(c(0,max(listing_data[listing_data$Category != "Total",]$'Cost per wear')), '#FFCCCC'),
+        backgroundSize = '100% 90%',
+        backgroundRepeat = 'no-repeat',
+        backgroundPosition = 'center') %>%
+    formatStyle('Days used',
+        background = styleColorBar(c(0, 1), '#CCFFCC'),
+        backgroundSize = '100% 90%',
+        backgroundRepeat = 'no-repeat',
+        backgroundPosition = 'center') %>%
+    formatStyle('Yearly cost',
+        background = styleColorBar(c(0, max(listing_data[listing_data$Category != "Total",]$'Yearly cost')), '#FFCCCC'),
+        backgroundSize = '100% 90%',
+        backgroundRepeat = 'no-repeat',
+        backgroundPosition = 'center') %>%
+    formatStyle('Turnover',
+        background = styleColorBar(c(0, max(listing_data[listing_data$Category != "Total",]$'Turnover')), '#E0E0E0'),
+        backgroundSize = '100% 90%',
+        backgroundRepeat = 'no-repeat',
+        backgroundPosition = 'center') %>%
+    formatStyle('Category',
+        target = 'row',
+        fontWeight = styleEqual("Total", "bold"))
+```
+
+### Active items by category
 Number of active items in each category. 
 [![](https://www.dropbox.com/s/uvxzeospt4ebjjc/Portfolio-Inventory-Item_count.png?raw=1)](https://www.dropbox.com/s/uvxzeospt4ebjjc/Portfolio-Inventory-Item_count.png?raw=1){target="_blank"}
 
