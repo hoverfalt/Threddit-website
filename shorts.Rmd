@@ -59,7 +59,9 @@ datatable(listing_data, rownames = FALSE, class = 'compact stripe hover row-bord
         backgroundRepeat = 'no-repeat',
         backgroundPosition = 'center') %>%
     formatStyle('Cost per wear',
-        background = styleColorBar(c(0,max(listing_data$'Cost per wear'[listing_data$Status == 'Divested'])), '#FFCCCC'),
+        background = styleColorBar(c(0,max(listing_data$'Cost per wear'[ifelse( # Use active items range if there are no divested items
+            "Divested" %in% listing_data$Status, listing_data$Status == 'Divested', listing_data$Status == 'Active')])),
+            '#FFCCCC'),
         backgroundSize = '100% 90%',
         backgroundRepeat = 'no-repeat',
         backgroundPosition = 'center') %>%
