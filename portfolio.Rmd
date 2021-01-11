@@ -24,7 +24,7 @@ listing_data <- category_listing
 # Set up datatable
 datatable(listing_data, rownames = FALSE, class = 'compact stripe hover row-border order-column', escape = FALSE, options = list(
     autoWidth= TRUE,
-    colnames = c("Img", "Category", "Active items", "Inventory value", "Cost per wear", "Days used", "Yearly cost", "Turnover"),
+    colnames = c("Img", "Category", "Active items", "Inventory value", "Cost per wear", "Days used", "Yearly cost", "Inventory turnover"),
     columnDefs = list(list(width = '28px', targets = c(0)),
                     #list(width = '110px', targets = c(1)),
                     list(width = '90px', targets = c(2, 3, 4, 5, 6, 7)),
@@ -50,7 +50,7 @@ datatable(listing_data, rownames = FALSE, class = 'compact stripe hover row-bord
         dec.mark = getOption("OutDec"),
         before = FALSE) %>%
     formatPercentage(c('Days used'), 0) %>%
-    formatRound(c('Turnover'), 2) %>%
+    formatRound(c('Inventory turnover'), 2) %>%
     formatStyle('Active items',
         background = styleColorBar(c(0, max(listing_data[listing_data$Category != "Total",]$'Active items')), '#E0E0E0'),
         backgroundSize = '100% 90%',
@@ -76,8 +76,8 @@ datatable(listing_data, rownames = FALSE, class = 'compact stripe hover row-bord
         backgroundSize = '100% 90%',
         backgroundRepeat = 'no-repeat',
         backgroundPosition = 'center') %>%
-    formatStyle('Turnover',
-        background = styleColorBar(c(0, max(listing_data[listing_data$Category != "Total",]$'Turnover')), '#E0E0E0'),
+    formatStyle('Inventory turnover',
+        background = styleColorBar(c(0, max(listing_data[listing_data$Category != "Total",]$'Inventory turnover')), '#E0E0E0'),
         backgroundSize = '100% 90%',
         backgroundRepeat = 'no-repeat',
         backgroundPosition = 'center') %>%

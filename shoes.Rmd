@@ -86,7 +86,7 @@ Dotted lines show average values for the total use to date of all divested items
 
 ### Times worn - Animated by date
 Historic progression. Green line items are divested, gray still in use. Green areas show 1 and 2 SD ranges for divested items. 
-![](https://www.dropbox.com/s/le3ig1iljkvs5n4/Category-Socks-Times_used-animation.gif?raw=1)
+![](https://www.dropbox.com/s/a9y6joq1nmjgmbh/Category-Shoes-Times_used-animation.gif?raw=1)
 
 ### Cost per wear and frequency of use - Animated by date
 Historic progression. Dotted lines show average values for the total use to date of all divested items to that date.
