@@ -95,3 +95,7 @@ Historic progression. Dotted lines show average values for the total use to date
 ### Daily cost
 Daily cost of category item(s) worn. Green means the daily cost is final and no longer changes. Red means it may still decrease with future use.
 [![](https://www.dropbox.com/s/gv346sx8mkqo7jz/Category-Shoes-Daily_cost.png?raw=1)](https://www.dropbox.com/s/gv346sx8mkqo7jz/Category-Shoes-Daily_cost.png?raw=1){target="_blank"}
+
+### Total steps
+Total steps taken by pair of shoes. Daily step data integrated from Fitbit.
+[![](https://www.dropbox.com/s/dh8m3h2ho341496/Category-Shoes-Total_steps.png?raw=1)](https://www.dropbox.com/s/dh8m3h2ho341496/Category-Shoes-Total_steps.png?raw=1){target="_blank"}
