@@ -122,6 +122,9 @@ Progression of the yearly cost of using the items in a particular category, and 
 Progressions of daily cost of all items used on a particular day. "All divested" means the daily cost is final and no longer decreases.
 ![](https://www.dropbox.com/s/3bq0xd1z2p1cvah/Portfolio-Daily_cost-animation.gif?raw=1)
 
+### Monthly cost and category frequency of use
+Monthly cost of the "utility of clothes" by category. Other current consumption for comparison.
+[![](https://www.dropbox.com/s/z3msdpq3nxjgzge/Portfolio-Monthly_cost_and_Category_use-image.png?raw=1)](https://www.dropbox.com/s/z3msdpq3nxjgzge/Portfolio-Monthly_cost_and_Category_use-image.png?raw=1){target="_blank"}
 
 
 
