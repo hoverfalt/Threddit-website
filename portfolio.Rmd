@@ -124,7 +124,7 @@ Progressions of daily cost of all items used on a particular day. "All divested"
 
 ### Monthly cost and comparison
 Monthly cost of the "utility of clothes" by category. Other current consumption for comparison.
-[![](https://www.dropbox.com/s/z3msdpq3nxjgzge/Portfolio-Monthly_cost_and_Category_use-image.png?raw=1)](https://www.dropbox.com/s/z3msdpq3nxjgzge/Portfolio-Monthly_cost_and_Category_use-image.png?raw=1){target="_blank"}
+[![](https://www.dropbox.com/s/9l081dlhhcspg2e/Portfolio-Monthly_cost_and_Category_use-image.png?raw=1)](https://www.dropbox.com/s/9l081dlhhcspg2e/Portfolio-Monthly_cost_and_Category_use-image.png?raw=1){target="_blank"}
 
 
 
