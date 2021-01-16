@@ -90,7 +90,7 @@ Historic progression. Green line items are divested, gray still in use. Green ar
 
 ### Cost per wear and frequency of use - Animated by date
 Historic progression. Dotted lines show average values for the total use to date of all divested items to that date.
-![](https://www.dropbox.com/s/hdhgfwnivbfmota/Category-Shoes-Times_used-animation.gif?raw=1)
+![](https://www.dropbox.com/s/tugks1t0dlqagsd/Category-Shoes-animation.gif?raw=1)
 
 ### Daily cost
 Daily cost of category item(s) worn. Green means the daily cost is final and no longer changes. Red means it may still decrease with future use.
