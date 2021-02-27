@@ -22,7 +22,6 @@ categories <- "Sportswear"
 
 # Filter data by categories and add photo URIs 
 listing_data <- item_listings %>% filter(Category %in% categories) %>%
-    #mutate(Img = "<img class='item_image' src='https://www.dropbox.com/s/t01v1zpeyahx0ev/Belts-001.png?raw=1'></img>") %>%
     select(-Category, -'Months active') %>%
     select(Img, Item, Price, 'Times worn', 'Cost per wear', 'Wears per month', 'Status')
 
@@ -76,20 +75,20 @@ datatable(listing_data, rownames = FALSE, class = 'compact stripe hover row-bord
 
 ### Times worn
 Total times worn to date. Green line items are divested, gray still in use. Green areas show 1 and 2 SD ranges for divested items.
-[![](https://www.dropbox.com/s/rywno9m7797dt1n/Category-Sportswear-Times_used.png?raw=1)](https://www.dropbox.com/s/rywno9m7797dt1n/Category-Sportswear-Times_used.png?raw=1){target="_blank"}
+[![](https://threddit-297417.web.app/Category-Sportswear-Times_used.png)](https://threddit-297417.web.app/Category-Sportswear-Times_used.png){target="_blank"}
 
 ### Cost per wear and times worn
 Gray dots trace the use of each item. Blue dots are guide trajectories for items with purchase prices of 5, 10, 20, 50, 100, 200, 400, and 800 EUR.
-[![](https://www.dropbox.com/s/win3kh5flbzuswh/Category-Sportswear-Cost_and_Cumulative_use.png?raw=1)](https://www.dropbox.com/s/win3kh5flbzuswh/Category-Sportswear-Cost_and_Cumulative_use.png?raw=1){target="_blank"}
+[![](https://threddit-297417.web.app/Category-Sportswear-Cost_and_Cumulative_use.png)](https://threddit-297417.web.app/Category-Sportswear-Cost_and_Cumulative_use.png){target="_blank"}
 
 ### Cost per wear and frequency of use
 Dotted lines show average values for the total use to date of all divested items.
-[![](https://www.dropbox.com/s/0fpnk9ful0wtkh6/Category-Sportswear.png?raw=1)](https://www.dropbox.com/s/0fpnk9ful0wtkh6/Category-Sportswear.png?raw=1){target="_blank"}
+[![](https://threddit-297417.web.app/Category-Sportswear.png)](https://threddit-297417.web.app/Category-Sportswear.png){target="_blank"}
 
 ### Times worn - Animated by date
 Historic progression. Green line items are divested, gray still in use. Green areas show 1 and 2 SD ranges for divested items. 
-![](https://www.dropbox.com/s/6v3108tcpmf2iqj/Category-Sportswear-Times_used-animation.gif?raw=1)
+![](https://threddit-297417.web.app/Category-Sportswear-Times_used-animation.gif)
 
 ### Cost per wear and frequency of use - Animated by date
 Historic progression. Dotted lines show average values for the total use to date of all divested items to that date.
-![](https://www.dropbox.com/s/kycis787oireovi/Category-Sportswear-animation.gif?raw=1)
+![](https://threddit-297417.web.app/Category-Sportswear-animation.gif)

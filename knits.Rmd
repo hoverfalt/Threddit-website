@@ -22,7 +22,6 @@ categories <- "Knits"
 
 # Filter data by categories and add photo URIs 
 listing_data <- item_listings %>% filter(Category %in% categories) %>%
-    #mutate(Img = "<img class='item_image' src='https://www.dropbox.com/s/t01v1zpeyahx0ev/Belts-001.png?raw=1'></img>") %>%
     select(-Category, -'Months active') %>%
     select(Img, Item, Price, 'Times worn', 'Cost per wear', 'Wears per month', 'Status')
 
@@ -74,24 +73,24 @@ datatable(listing_data, rownames = FALSE, class = 'compact stripe hover row-bord
 
 ### Times worn
 Total times worn to date. Green line items are divested, gray still in use. Green areas show 1 and 2 SD ranges for divested items.
-[![](https://www.dropbox.com/s/2q69lsq1v2od3gz/Category-Knits-Times_used.png?raw=1)](https://www.dropbox.com/s/2q69lsq1v2od3gz/Category-Knits-Times_used.png?raw=1){target="_blank"}
+[![](https://threddit-297417.web.app/Category-Knits-Times_used.png)](https://threddit-297417.web.app/Category-Knits-Times_used.png){target="_blank"}
 
 ### Cost per wear and times worn
 Gray dots trace the use of each item. Blue dots are guide trajectories for items with purchase prices of 5, 10, 20, 50, 100, 200, 400, and 800 EUR.
-[![](https://www.dropbox.com/s/hd22opey7s25ko7/Category-Knits-Cost_and_Cumulative_use.png?raw=1)](https://www.dropbox.com/s/hd22opey7s25ko7/Category-Knits-Cost_and_Cumulative_use.png?raw=1){target="_blank"}
+[![](https://threddit-297417.web.app/Category-Knits-Cost_and_Cumulative_use.png)](https://threddit-297417.web.app/Category-Knits-Cost_and_Cumulative_use.png){target="_blank"}
 
 ### Cost per wear and frequency of use
 Dotted lines show average values for the total use to date of all divested items.
-[![](https://www.dropbox.com/s/wr944tqvle1dccd/Category-Knits.png?raw=1)](https://www.dropbox.com/s/wr944tqvle1dccd/Category-Knits.png?raw=1){target="_blank"}
+[![](https://threddit-297417.web.app/Category-Knits.png)](https://threddit-297417.web.app/Category-Knits.png){target="_blank"}
 
 ### Times worn - Animated by date
 Historic progression. Green line items are divested, gray still in use. Green areas show 1 and 2 SD ranges for divested items. 
-![](https://www.dropbox.com/s/oobfi7el8ynrrwz/Category-Knits-Times_used-animation.gif?raw=1)
+![](https://threddit-297417.web.app/Category-Knits-Times_used-animation.gif)
 
 ### Cost per wear and frequency of use - Animated by date
 Historic progression. Dotted lines show average values for the total use to date of all divested items to that date.
-![](https://www.dropbox.com/s/2tzlt7fp9q7wk97/Category-Knits-animation.gif?raw=1)
+![](https://threddit-297417.web.app/Category-Knits-animation.gif)
 
 ### Daily cost
 Daily cost of category item(s) worn. Green means the daily cost is final and no longer changes. Red means it may still decrease with future use.
-[![](https://www.dropbox.com/s/u2bdr200ov9tpjc/Category-Knits-Daily_cost.png?raw=1)](https://www.dropbox.com/s/u2bdr200ov9tpjc/Category-Knits-Daily_cost.png?raw=1){target="_blank"}
+[![](https://threddit-297417.web.app/Category-Knits-Daily_cost.png)](https://threddit-297417.web.app/Category-Knits-Daily_cost.png){target="_blank"}

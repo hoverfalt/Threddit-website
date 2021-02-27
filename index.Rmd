@@ -7,6 +7,8 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+Use the top navigation to see garment and category performance, e.g. [Portfolio](https://hoverfalt.github.io/portfolio.html), or [Jackets](https://hoverfalt.github.io/jackets.html).
+
 ### Showing the real cost of clothes
 This is my personal project attempting to build a proper understanding of the real cost and eventually environmental impact of my use of clothes. The data set is a continuous daily log of my use of each piece of garment since 1 January 2018. In addition to showing the real cost per wear and frequency of use for each garment, this enables studying the correlation between price and quality (as measured by durability), as well as actual vs imagined use.
 
@@ -17,5 +19,24 @@ Visibility into item-level cost efficiency has been eye-opening in many ways. My
 Since the use data is exhaustive both in terms of items and time, each category (kind of clothing) and the portfolio (entire wardrobe) describe the "utility of clothes". This makes clothes comparable to not only other types of physical assets that deteriorate with use, but to service models providing any kind of continuous utility, be it physical or intangible, metered or flat rate. This in turn enables evaluating consumption alternatives and choices across types of spending and across business models.
 
 <center>
-![](https://www.dropbox.com/s/w8sflfbmk8689bs/Front_page_image_01.png?raw=1) ![](https://www.dropbox.com/s/k1a4tneo8fwzqdv/Front_page_image_02.png?raw=1) ![](https://www.dropbox.com/s/pp0kup8jihs2k8s/Front_page_image_03.png?raw=1)
+![](https://firebasestorage.googleapis.com/v0/b/threddit-297417.appspot.com/o/Front_page_image_01.png?alt=media) ![](https://firebasestorage.googleapis.com/v0/b/threddit-297417.appspot.com/o/Front_page_image_02.png?alt=media) ![](https://firebasestorage.googleapis.com/v0/b/threddit-297417.appspot.com/o/Front_page_image_03.png?alt=media)
 </center>
+
+### Insights and learnings
+For a more elaborate story of my insights, learnings, and behavior change, please see my blog post [Why I’ve tracked every single piece of clothing I’ve worn for three years](https://www.reaktor.com/blog/why-ive-tracked-every-single-piece-of-clothing-ive-worn-for-three-years/){target="_blank"}. I'm humbled and inspired byt the attention and interest this project is getting.
+
+### Track your own wardrobe
+If you are interested in starting tracking your own wardrobe, my [wardrobe tracking template](http://bit.ly/3cZi8qL){target="_blank"} in Google Sheets might be quick way to start. It is a copy of the master sheet I use. Feel free to duplicate a copy for yourself.
+
+### Further development
+I built this for myself, but due to popular interest, I'm thinking about how to best go about making something like this available for broader good.
+If you have ideas or would like to contibute or partner up, please feel free to reach out :)
+
+You will e.g. find me on [linkedin.com/in/hoverfalt](http://bit.ly/3tEkCkx){target="_blank"}.
+
+My project on GitHub is [github.com/hoverfalt/Threddit](http://bit.ly/3aQqZsb){target="_blank"}.
+
+<center>
+![](https://firebasestorage.googleapis.com/v0/b/threddit-297417.appspot.com/o/Olof_Hoverfalt.png?alt=media)
+</center>
+
