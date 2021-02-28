@@ -88,27 +88,27 @@ datatable(listing_data, rownames = FALSE, class = 'compact stripe hover row-bord
 
 ### Active items by category
 Number of active items in each category. 
-[![](https://threddit-297417.web.app/Portfolio-Inventory-Item_count.png)](https://threddit-297417.web.app/Portfolio-Inventory-Item_count.png){target="_blank"}
+[![](https://firebasestorage.googleapis.com/v0/b/threddit-plots/o/Portfolio-Inventory-Item_count_910x910.png?alt=media)](https://firebasestorage.googleapis.com/v0/b/threddit-plots/o/Portfolio-Inventory-Item_count.png?alt=media){target="_blank"}
 
 ### Inventory value by category
 Sum of the value of active items in each category. The value of an item is its purchase price.
-[![](https://threddit-297417.web.app/Portfolio-Inventory-Value_by_category.png)](https://threddit-297417.web.app/Portfolio-Inventory-Value_by_category.png){target="_blank"}
+[![](https://firebasestorage.googleapis.com/v0/b/threddit-plots/o/Portfolio-Inventory-Value_by_category_910x910.png?alt=media)](https://firebasestorage.googleapis.com/v0/b/threddit-plots/o/Portfolio-Inventory-Value_by_category.png?alt=media){target="_blank"}
 
 ### Total inventory value
 Total value of active items. The value of an item is its purchase price.
-[![](https://threddit-297417.web.app/Portfolio-Inventory-Value_stacked.png)](https://threddit-297417.web.app/Portfolio-Inventory-Value_stacked.png){target="_blank"}
+[![](https://firebasestorage.googleapis.com/v0/b/threddit-plots/o/Portfolio-Inventory-Value_stacked_910x910.png?alt=media)](https://firebasestorage.googleapis.com/v0/b/threddit-plots/o/Portfolio-Inventory-Value_stacked.png?alt=media){target="_blank"}
 
 ### Average cost per wear and category frequency of use
 Average cost per wear by category. Category frequency of use is the share of all days in which any item in the category was used.
-[![](https://threddit-297417.web.app/Portfolio-Daily_cost_and_Category_use.png)](https://threddit-297417.web.app/Portfolio-Daily_cost_and_Category_use.png){target="_blank"}
+[![](https://firebasestorage.googleapis.com/v0/b/threddit-plots/o/Portfolio-Daily_cost_and_Category_use_910x910.png?alt=media)](https://threddit-297417.web.app/Portfolio-Daily_cost_and_Category_use.png?alt=media){target="_blank"}
 
 ### Average yearly cost and category frequency of use
 Yearly cost of using the items in a particular category. Frequency of use is the share of all days in which any item in the category was used. 
-[![](https://threddit-297417.web.app/Portfolio-Yearly_cost_and_Category_use.png)](https://threddit-297417.web.app/Portfolio-Yearly_cost_and_Category_use.png){target="_blank"}
+[![](https://firebasestorage.googleapis.com/v0/b/threddit-plots/o/Portfolio-Yearly_cost_and_Category_use_910x910.png?alt=media)](https://threddit-297417.web.app/Portfolio-Yearly_cost_and_Category_use.png?alt=media){target="_blank"}
 
 ### Daily cost
 Daily cost of all items used on a particular day. "All divested" means the daily cost is final and no longer decreases with future use.
-[![](https://threddit-297417.web.app/Portfolio-Daily_cost.png)](https://threddit-297417.web.app/Portfolio-Daily_cost.png){target="_blank"}
+[![](https://firebasestorage.googleapis.com/v0/b/threddit-plots/o/Portfolio-Daily_cost_910x910.png?alt=media)](https://firebasestorage.googleapis.com/v0/b/threddit-plots/o/Portfolio-Daily_cost.png?alt=media){target="_blank"}
 
 ### Daily cost - Animated by date
 Progressions of daily cost of all items used on a particular day. "All divested" means the daily cost is final and no longer decreases.
