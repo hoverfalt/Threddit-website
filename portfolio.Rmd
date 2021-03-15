@@ -112,11 +112,11 @@ Daily cost of all items used on a particular day. "All divested" means the daily
 
 ### Daily cost - Animated by date
 Progressions of daily cost of all items used on a particular day. "All divested" means the daily cost is final and no longer decreases.
-![](https://threddit-297417.web.app/Portfolio-Daily_cost-animation.gif)
+![](https://firebasestorage.googleapis.com/v0/b/threddit-plots/o/Portfolio-Daily_cost-animation.gif?alt=media)
 
 ### Monthly cost and comparison
 Monthly cost of the "utility of clothes" by category. Other current consumption for comparison.
-[![](https://threddit-297417.web.app/Portfolio-Monthly_cost_and_Category_use-image.png)](https://threddit-297417.web.app/Portfolio-Monthly_cost_and_Category_use-image.png){target="_blank"}
+[![](https://firebasestorage.googleapis.com/v0/b/threddit-plots/o/Portfolio-Monthly_cost_and_Category_use-image_910x910.png?alt=media)](https://firebasestorage.googleapis.com/v0/b/threddit-plots/o/Portfolio-Monthly_cost_and_Category_use-image.png?alt=media){target="_blank"}
 
 
 
