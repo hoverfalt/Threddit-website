@@ -73,24 +73,24 @@ datatable(listing_data, rownames = FALSE, class = 'compact stripe hover row-bord
 
 ### Times worn
 Total times worn to date. Green line items are divested, gray still in use. Green areas show 1 and 2 SD ranges for divested items.
-[![](https://threddit-297417.web.app/Category-Pants-Times_used.png)](https://threddit-297417.web.app/Category-Pants-Times_used.png){target="_blank"}
+[![](https://firebasestorage.googleapis.com/v0/b/threddit-plots/o/Category-Pants-Times_used_910x910.png?alt=media)](https://firebasestorage.googleapis.com/v0/b/threddit-plots/o/Category-Pants-Times_used.png?alt=media){target="_blank"}
 
 ### Cost per wear and times worn
 Gray dots trace the use of each item. Blue dots are guide trajectories for items with purchase prices of 5, 10, 20, 50, 100, 200, 400, and 800 EUR.
-[![](https://threddit-297417.web.app/Category-Pants-Cost_and_Cumulative_use.png)]https://threddit-297417.web.app/Category-Pants-Cost_and_Cumulative_use.png){target="_blank"}
+[![](https://firebasestorage.googleapis.com/v0/b/threddit-plots/o/Category-Pants-Cost_and_Cumulative_use_910x910.png?alt=media)]https://firebasestorage.googleapis.com/v0/b/threddit-plots/o/Category-Pants-Cost_and_Cumulative_use.png?alt=media){target="_blank"}
 
 ### Cost per wear and frequency of use
 Dotted lines show average values for the total use to date of all divested items.
-[![](https://threddit-297417.web.app/Category-Pants.png)](https://threddit-297417.web.app/Category-Pants.png){target="_blank"}
+[![](https://firebasestorage.googleapis.com/v0/b/threddit-plots/o/Category-Pants_910x910png?alt=media)](https://firebasestorage.googleapis.com/v0/b/threddit-plots/o/Category-Pants.png?alt=media){target="_blank"}
 
 ### Times worn - Animated by date
 Historic progression. Green line items are divested, gray still in use. Green areas show 1 and 2 SD ranges for divested items. 
-![](https://threddit-297417.web.app/Category-Pants-Times_used-animation.gif)
+![](https://firebasestorage.googleapis.com/v0/b/threddit-plots/o/Category-Pants-Times_used-animation.gif?alt=media)
 
 ### Cost per wear and frequency of use - Animated by date
 Historic progression. Dotted lines show average values for the total use to date of all divested items to that date.
-![](https://threddit-297417.web.app/Category-Pants-animation.gif)
+![](https://firebasestorage.googleapis.com/v0/b/threddit-plots/o/Category-Pants-animation.gif?alt=media)
 
 ### Daily cost
 Daily cost of category item(s) worn. Green means the daily cost is final and no longer changes. Red means it may still decrease with future use.
-[![](https://threddit-297417.web.app/Category-Pants-Daily_cost.png)](https://threddit-297417.web.app/Category-Pants-Daily_cost.png){target="_blank"}
+[![](https://firebasestorage.googleapis.com/v0/b/threddit-plots/o/Category-Pants-Daily_cost_910x910.png?alt=media)](https://firebasestorage.googleapis.com/v0/b/threddit-plots/o/Category-Pants-Daily_cost.png?alt=media){target="_blank"}
