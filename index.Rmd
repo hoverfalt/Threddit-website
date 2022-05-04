@@ -1,5 +1,5 @@
 ---
-title: "Wardrobe diary"
+title: "Wardrobe Diary"
 output: html_document
 ---
 
@@ -7,7 +7,7 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-Use the top navigation to see garment and category performance, e.g. [Portfolio](https://hoverfalt.github.io/portfolio.html), or [Jackets](https://hoverfalt.github.io/jackets.html).
+Use the top navigation to see all my garment and category performance data.
 
 ### Showing the real cost of clothes
 This is my personal project attempting to build a proper understanding of the real cost and eventually environmental impact of my use of clothes. The data set is a continuous daily log of my use of each piece of garment since 1 January 2018. In addition to showing the real cost per wear and frequency of use for each garment, this enables studying the correlation between price and quality (as measured by durability), as well as actual vs imagined use.
@@ -15,8 +15,8 @@ This is my personal project attempting to build a proper understanding of the re
 ### Making data-supported consumption choices
 Visibility into item-level cost efficiency has been eye-opening in many ways. My main goal is not to drive down cost though, but to make better consumption choices especially from a sustainability perspective. This means only buying what I need, actually using what I have, and taking good care of each item to maximise its lifetime. Visibility helps in uncovering and quantifying opportunities for improvement, but also provides justification and peace of mind in choices that might otherwise keep feeling questionable.
 
-### Expanding comparability to all spending
-Since the use data is exhaustive both in terms of items and time, each category (kind of clothing) and the portfolio (entire wardrobe) describe the "utility of clothes". This makes clothes comparable to not only other types of physical assets that deteriorate with use, but to service models providing any kind of continuous utility, be it physical or intangible, metered or flat rate. This in turn enables evaluating consumption alternatives and choices across types of spending and across business models.
+### Track your own wardrobe
+If you are interested in exploring your own use of clothes, please join the project and [sign up for your own wardrobe diary](https://bit.ly/3rSnUlE){target="_blank"}. By tracking even a part of your wardrobe, you gain insights into your real use of clothes, item cost performance, your favorites, and the items you should probably consider putting forward. In a bigger picture, you will also contribute to the project of building a broader understanding of how we actually use the clothes we have, and hopefully provide insights and opportunities for betterment. This is my passion and I would love to have you join the project! Feel free to reach out if you have any questions about the project or your participation. The easiest way is to start with the sign-up form.
 
 <center>
 ![](https://firebasestorage.googleapis.com/v0/b/threddit-297417.appspot.com/o/Front_page_image_01.png?alt=media) ![](https://firebasestorage.googleapis.com/v0/b/threddit-297417.appspot.com/o/Front_page_image_02.png?alt=media) ![](https://firebasestorage.googleapis.com/v0/b/threddit-297417.appspot.com/o/Front_page_image_03.png?alt=media)
@@ -25,12 +25,33 @@ Since the use data is exhaustive both in terms of items and time, each category 
 ### Insights and learnings
 For a more elaborate story of my insights, learnings, and behavior change, please see my blog post [Why I’ve tracked every single piece of clothing I’ve worn for three years](https://www.reaktor.com/blog/why-ive-tracked-every-single-piece-of-clothing-ive-worn-for-three-years/){target="_blank"}. I'm humbled and inspired byt the attention and interest this project is getting.
 
-### Track your own wardrobe
-If you are interested in starting tracking your own wardrobe, my [wardrobe tracking template](http://bit.ly/3cZi8qL){target="_blank"} in Google Sheets might be quick way to start. It is a copy of the master sheet I use. Feel free to duplicate a copy for yourself.
+### Expanding comparability to all spending
+Since the use data is exhaustive both in terms of items and time, each category (kind of clothing) and the portfolio (entire wardrobe) describe the "utility of clothes". This makes clothes comparable to not only other types of physical assets that deteriorate with use, but to service models providing any kind of continuous utility, be it physical or intangible, metered or flat rate. This in turn enables evaluating consumption alternatives and choices across types of spending and across business models.
+
+### Media coverage
+I'm happy to note that this project has attracted a lot of interest and engagement among consumers and fashion brands and retailers alike. It has been picked up by many prominent media outlets. Here is some of the media coverage from different perspectives. If you would like to have a chat about the project or the insights generated, please feel free to reach out :)
+
+<center>
+[![](https://firebasestorage.googleapis.com/v0/b/threddit-297417.appspot.com/o/SVT-nyheter-Koll_pa_garderoben.png?alt=media)](https://www.svt.se/nyheter/inrikes/garderobsillusionen-sa-fel-har-vi-om-vara-klader-1){target="_blank"} 
+</center>
+
+<center>
+[![](https://firebasestorage.googleapis.com/v0/b/threddit-297417.appspot.com/o/Media-SVT_nyheter.png?alt=media)](https://www.svt.se/nyheter/inrikes/garderobsillusionen-sa-fel-har-vi-om-vara-klader-1){target="_blank"} 
+[![](https://firebasestorage.googleapis.com/v0/b/threddit-297417.appspot.com/o/Media-Helsingin_Sanomat.png?alt=media)](https://www.hs.fi/elama/art-2000007811695.html){target="_blank"} 
+
+[![](https://firebasestorage.googleapis.com/v0/b/threddit-297417.appspot.com/o/Media-YLE_Nyheter.png?alt=media)](https://svenska.yle.fi/a/7-10012585){target="_blank"} 
+[![](https://firebasestorage.googleapis.com/v0/b/threddit-297417.appspot.com/o/Media-YLE_Radio_Vega.png?alt=media)](https://arenan.yle.fi/audio/1-61749228){target="_blank"} 
+
+[![](https://firebasestorage.googleapis.com/v0/b/threddit-297417.appspot.com/o/Media-Under_Femton.png?alt=media)](https://open.spotify.com/episode/1aDvGbCWOvx3YCstFXrgqL){target="_blank"} 
+[![](https://firebasestorage.googleapis.com/v0/b/threddit-297417.appspot.com/o/Media-RIXFM.png?alt=media)](https://www.ilikeradio.se/podcasts/martina-thun/22241/){target="_blank"} 
+
+[![](https://firebasestorage.googleapis.com/v0/b/threddit-297417.appspot.com/o/Media-Scandinavian_MIND.png?alt=media)](https://scandinavianmind.com/podcast/olov-hoverfalt-on-humanizing-ai-artifical-intelligence-creativity){target="_blank"} 
+[![](https://firebasestorage.googleapis.com/v0/b/threddit-297417.appspot.com/o/Media-AI_podden.png?alt=media)](https://ai-podden.se/){target="_blank"} 
+</center>
+
 
 ### Further development
-I built this for myself, but due to popular interest, I'm thinking about how to best go about making something like this available for broader good.
-If you have ideas or would like to contibute or partner up, please feel free to reach out :)
+I built this for myself, but due to popular interest, I have opened the service for everyone to use for free. I'm also thinking about how to best go about making something like this available for broader good at real scale. If you have ideas or would like to contibute or partner up, please feel free to reach out :)
 
 You will e.g. find me on [linkedin.com/in/hoverfalt](http://bit.ly/3tEkCkx){target="_blank"}.
 
