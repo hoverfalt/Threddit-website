@@ -26,14 +26,16 @@ listing_data <- item_listings %>% filter(Category %in% categories) %>%
     select(Img, Item, Price, 'Times worn', 'Cost per wear', 'Wears per month', 'Status')
 
 # Set up datatable
-datatable(listing_data, rownames = FALSE, class = 'compact stripe hover row-border order-column', escape = FALSE, options = list(
+datatable(listing_data, rownames = FALSE, class = 'compact stripe hover row-border order-column', escape = FALSE, style = 'bootstrap4',
+    colnames = c(" ", "Item", "Price", "Times worn", "Cost per wear", "Wers per month", "Status"),
+    options = list(
     autoWidth= TRUE,
-    colnames = c("Img", "Item", "Price", "Times worn", "Cost per wear", "Wers per month", "Status"),
     columnDefs = list(list(width = '28px', targets = c(0)),
                     list(width = '80px', targets = c(2, 3, 4, 5)),
                     list(width = '45px', targets = c(6)),
-                    list(className = 'dt-center', targets = c(0, 6)),
-                    list(className = 'dt-body-right', targets = c(0, 2, 3, 4, 5, 6))
+                    list(className = 'dt-body-center', targets = c(0, 6)),
+                    list(className = 'dt-body-right', targets = c(0, 2, 3, 4, 5, 6)),
+                    list(className = 'dt-head-center', targets = c(0, 2, 3, 4, 5, 6))
                     ),
     dom = 't', # Hide search box
     order = list(list(6, 'asc'), list(3, 'desc')), # Set original ordering

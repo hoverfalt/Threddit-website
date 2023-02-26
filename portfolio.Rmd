@@ -21,16 +21,18 @@ The portfolio level shows category performance and comparison within the portfol
 # Prepare data and add photo URIs 
 listing_data <- category_listing
 
+
 # Set up datatable
-datatable(listing_data, rownames = FALSE, class = 'compact stripe hover row-border order-column', escape = FALSE, options = list(
+datatable(listing_data, rownames = FALSE, class = 'compact stripe hover row-border order-column', escape = FALSE, style = 'bootstrap4',
+    colnames = c(" ", "Category", "Active items", "Inventory value", "Cost per wear", "Days used", "Yearly cost", "Inventory turnover"),
+    options = list(
     autoWidth= TRUE,
-    colnames = c("Img", "Category", "Active items", "Inventory value", "Cost per wear", "Days used", "Yearly cost", "Inventory turnover"),
-    columnDefs = list(list(width = '28px', targets = c(0)),
-                    #list(width = '110px', targets = c(1)),
-                    list(width = '90px', targets = c(2, 3, 4, 5, 6, 7)),
-                    list(className = 'dt-center', targets = c(0)),
-                    list(className = 'dt-body-right', targets = c(0, 2, 3, 4, 5, 6, 7))
-                    ),
+    columnDefs = list(list(width = '28px', targets = 0),
+                      list(width = '86px', targets = 2:7),
+                      list(className = 'dt-body-center', targets = 0),
+                      list(className = 'dt-body-right', targets = c(2, 3, 4, 5, 6, 7)),
+                      list(className = 'dt-head-center', targets = c(2, 3, 4, 5, 6, 7))
+                      ),
     dom = 't', # Hide search box
     #order = list(list(6, 'asc'), list(3, 'desc')), # Set original ordering
     pageLength = 200
